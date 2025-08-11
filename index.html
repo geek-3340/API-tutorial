@@ -2,16 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pokemon Database</title>
   </head>
   <body>
     <h1>Pokemon Database</h1>
-
+    
     <form action="#" class="form" id="js-form">
+
       <input type="text" name="pokeName" placeholder="Pokemon Name">
-      <button type="submit">Get Data</button>
+      <p class="input-span">or</p>
+      <input type="text" name="pokeType" placeholder="Pokemon Type">
+      <p class="input-span">or</p>
+      <input type="text" name="pokeId" placeholder="Pokemon ID">
+      <button type="submit" class="submit-button">Get Data</button>
     </form>
 
     <div class="result" id="js-result"></div>
