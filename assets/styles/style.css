@@ -92,12 +92,6 @@ input {
     text-align: center;
 }
 
-/* .result dl,
-.result dt,
-.result dd {
-    margin: 0;
-} */
-
 .pokemon-list {
     display: flex;
     flex-wrap: wrap;
